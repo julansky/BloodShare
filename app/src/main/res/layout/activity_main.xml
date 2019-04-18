@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NIM : 10116383
+    NAMA: JULANDRIAN AGUNG
+    AKB-9
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#43b3e6">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="156dp"
+            android:src="@drawable/ic_welcome_logo"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_marginTop="30dp"
+            android:maxLines="1"
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#fff"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button1"
+            android:text="LOGIN"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="#fff"
+            android:textSize="20dp"
+
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="CONNECT WITH FACEBOOK"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button1"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_welcome_fb_login"/>
+        <TextView
+            android:id="@+id/textlog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="doesen't have account ? Register"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
+        
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
